@@ -20,13 +20,17 @@ Q1. GDP/Wealth vs percent of municipal solid waste recycled.
 Do wealthier countries recycle more
 
 Q2. air pollutants vs GDP
-	air pollutants vs how many env agreements they are in
+	
 
 Q3. what source of electricity generation do wealthier countries use 
 
+
 Q4. CO2 emission vs urbanization
 
-Q back burner for later in the project: GDP vs immigration 
+
+Q back burner for later in the project:		GDP vs immigration 
+	
+						air pollutants vs how many env agreements they are in - can be someones own clean up project 
 
 
 Visualization:
