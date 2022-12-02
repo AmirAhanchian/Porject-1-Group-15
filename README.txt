@@ -24,9 +24,9 @@ Q2. air pollutants vs GDP
 
 Q3. what source of electricity generation do wealthier countries use 
 
-Q4. GDP vs immigration 
+Q4. CO2 emission vs urbanization
 
-Q5. CO2 emission vs urbanization
+Q back burner for later in the project: GDP vs immigration 
 
 
 Visualization:
