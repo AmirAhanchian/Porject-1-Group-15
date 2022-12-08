@@ -27,10 +27,13 @@ Q3. what source of electricity generation do wealthier countries use
 
 Q4. CO2 emission vs urbanization
 
+<<<<<<< HEAD
+=======
 
 Q back burner for later in the project:		GDP vs immigration 
 	
 						air pollutants vs how many env agreements they are in - can be someones own clean up project 
+>>>>>>> main
 
 
 Visualization:
