@@ -4,9 +4,13 @@
 ## Project 1 - Team 15:
 
 **Amir Ahanchian - Scrum Master, Visualizations**
+
 **Arzan Malegamwalla - Visualizations and PowerPoint**
+
 **Duy Duc Nguyen - Cleaning Lead**
+
 **Terry Schoch - Data Set, API Retrieval and Cleaning Sub**
+
 **Instructor: Sunil**
 
 
@@ -51,14 +55,15 @@ Our Data Analysis assignments were first divied up and broken down into a multi 
 ## Visualizations
 
 ### Waste Generated per Country Type
-Picture2
+![Waste Generated per Country Type](https://github.com/AmirAhanchian/Project-1-Group-15/blob/Final/Coding/output_data/Fig%209%20Average%20Waste%20Generated%20per%20Country%20Type.png?raw=true)
+
 
 ### Waste Recycled per Country Type
+![Waste Recycled per Country Type](https://github.com/AmirAhanchian/Project-1-Group-15/blob/Final/Coding/output_data/Fig%2010%20Average%20Waste%20Recycled%20per%20Country%20Type.png?raw=true)
 
-Picture3
 
 ### Real GDP Per Capita 2020 vs Percent of Waste Recycled Annually
-Picture2
+![GDP Per Capita vs Waste Recycled Annually](https://github.com/AmirAhanchian/Project-1-Group-15/blob/Final/Coding/output_data/Fig%203%20Real%20GDP%20Per%20Capita%202020%20vs%20%25%20of%20Wasted%20Recycled%20Annually.png?raw=true)
 
 To initially determine a correlation between a country's wealth and it's commitment to a cleaner environment, we broke our cleaned data down into two pie charts showing the share of waste generated per the mean of country type and waste recycled per the same mean. This was achieved through a GroupBy function using country type as the grouping variable.
 
@@ -74,26 +79,28 @@ The charts revealed that although the waste generated on average in the develope
 Linear regression backed up our theory and hope. While the correlation is considered "weak" with an r squared value of .32, it is definitely there. Moreover, our pearson correlation (0.56552) and p value (5.90404e-10) further backed up the relationship between a higher GDP and a better recycling infrastructure and effectively eliminted the null hypothesis on this metric.
 
 
-
 ### Air Pollutants vs GDP
-Picture2
+![C02 Emissions per Country](https://github.com/AmirAhanchian/Project-1-Group-15/blob/Final/Coding/output_data/map%20of%20countries%20and%20co2%20emission.png?raw=true)
 
 The following Map Plot which references each country's c02 emissions by megaton in relation to the size of the circles rather effectively shows the disproportionate affect some of the most advanced nations and biggest culprits toward pollution truly have. 
 
-### Real GDP Per Capita 2020 vs Particulate Matter Emissions ug-m3)
-Picture2
 
-A scatter plot with linear regression shown illustrates that there is actually a negative correlation between a nation's higher per capita GDP and a lower output of emissions. The correlation is quite weak and hardly an endorsement of wealth leading to cleanliness or vice versa. Specifically, it must be noted that some of the biggest outliers on this chart happened to qualify well within the Developed nation benchmark of $27,000 GDP per Capita. The most egregious of these being the United States nestled well into the upper right of the chart.
+### Real GDP Per Capita 2020 vs Particulate Matter Emissions ug-m3)
+![GDP Per Capita vs Particulate Matter Emissions](https://github.com/AmirAhanchian/Project-1-Group-15/blob/Final/Coding/output_data/Fig%202%20Real%20GDP%20Per%20Capita%20vs%20Particulate%20Matter%20Emissions%20(ug-m3).png?raw=true)
+
+A scatter plot with linear regression shown illustrates that there is actually a negative correlation between a nation's higher per capita GDP and a lower output of particulate matter emissions. The correlation is quite weak and frankly: hardly an endorsement of wealth leading to cleanliness or vice versa. Specifically, it must be noted that some of the biggest outliers on this chart happened to qualify well within the Developed nation benchmark of $27,000 GDP per Capita. The most egregious of these being the United States nestled well into the upper right of the chart. As seen below, the results were similar in regard to C02 emissions, but instead a very slight positive correlation presents.
+
+![GDP Per Capita vs C02 Emissions](https://github.com/AmirAhanchian/Project-1-Group-15/blob/Final/Coding/output_data/Fig%201%20Real%20GDP%20Per%20Capita%202020%20vs%20CO2%20Emissions.png?raw=true)
 
 
 ### Clean Energy per Country Type
-Picture2
+![Average of Energy Produced Cleanly per Country Type](https://github.com/AmirAhanchian/Project-1-Group-15/blob/Final/Coding/output_data/Fig%2011%20Average%20of%20Energy%20Produced%20Cleanly%20per%20Country%20Type.png?raw=true)
 
 What then are the rich countries doing to combat climate change at the heart of the matter: power geneation. This pie chart  reveals that regardless of the status of the country as developed or otherwise, the percent of energy produced through renewable means is pretty much equal around the world inerestingly. 
 
 
 ### Real GDP Per Capita 2020 vs Electricity by Clean Energy (%)
-Picture2
+![GDP Per Capita vs Electricity by Clean Energy](https://github.com/AmirAhanchian/Project-1-Group-15/blob/Final/Coding/output_data/Fig%204%20Real%20GDP%20Per%20Capita%202020%20vs%20Electricity%20by%20Clean%20Energy%20(%25).png?raw=true)
 
 Again, a scatter plot was used to dig deeper and verify any correlation present. And again, it was shown that desite being more advanced in several metrics, the developed nations and their greater GDP per capita did not correlate much at all to having cleaner energy production methods. 
 
